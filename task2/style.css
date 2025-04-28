@@ -1,0 +1,119 @@
+ header{
+    border: 1px solid black;
+    height: 8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .imgheader{
+    margin-left: 20%;
+ }
+ section{
+    display: flex;
+    width: 100%;
+    border: 1ps solid black;
+    align-items: center;
+    justify-content: center; 
+    gap: 40px;
+ }
+ .leftside{
+ width: 50%;
+border: 2px solid black;
+height:95vh;
+ }
+ 
+.leftsidearticle{
+    line-height: 1px;
+ }
+
+ .rightside{
+    width: 50%;
+ border: 2px solid black;
+ height:95vh;
+  }
+  .rightside_h1{
+    font-size: 20px;
+    width: 80%;
+    height: 5vh;
+   border: 1px solid black;
+   text-align: center;
+   background-color: rgb(231, 159, 159);
+
+
+  }
+  video{
+    margin-top: -20px;
+  }
+ p{
+    margin-top: -15px;
+    margin-left: 10px;
+ }
+ h5{
+    margin-left: 10px;
+ }
+ footer{
+    display: flex;
+  flex-direction: row;
+ 
+ }
+
+ .footerspan1 , .footerspan2 , .footerspan3{
+width: 33.33%;
+height: 20px;
+ }
+ .footerspan1{
+    background-color: brown;
+     }
+ .footerspan2{
+    background-color: bisque;
+ }
+ .footerspan3{
+    background-color: pink;
+ }
+  audio{
+    width: 200px;
+    height: 300px;
+ }
+
+
+ .progress-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .progress-circle {
+    width: 100px;
+    height: 130px;
+    position: relative;
+    margin-left: 30px;
+  }
+
+  .progress-circle svg {
+    transform: rotate(-90deg); 
+  }
+
+  .progress-circle circle {
+    fill: none;
+    stroke-width: 10;
+  }
+
+  .progress-circle .background {
+    stroke: #e6e6e6;
+  }
+
+  .progress-circle .progress {
+    stroke: #4caf50;
+    stroke-linecap: round;
+    stroke-dasharray: 314;
+    stroke-dashoffset: calc(314 - (314 * var(--progress)) / 100);
+    transition: stroke-dashoffset 0.5s ease;
+  }
+
+  .progress-circle .label {
+    font-size: 18px;
+    font-weight: bold;
+    fill: #333;
+    text-anchor: middle;
+    dominant-baseline: middle;
+}  
